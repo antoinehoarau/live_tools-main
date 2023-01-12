@@ -14,7 +14,7 @@ current_time = now.strftime("%d/%m/%Y %H:%M:%S")
 print("--- Start Execution Time :", current_time, "---")
 
 f = open(
-    "./secret.json",
+    "live_tools-main/secret.json",
 )
 secret = json.load(f)
 f.close()
